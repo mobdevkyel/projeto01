@@ -9,3 +9,5 @@ Implantei tambem junto ao cadastro uma busca automatica pelo cep, ao digitar o c
 No painel temos a opção de cadastrar uma aposta, alterar ou excluir. Os cadastros dentro do painel são salvos em um banco local.
 
 
+TESTAR SISTEMA
+http://mobtrader.42web.io/
