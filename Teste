@@ -4,9 +4,9 @@ echo -e "\E[44;1;37m     INSTALACAO BOT MOBVPN TESTE     \E[0m"
 echo -e "\nINSTALANDO AGUARDE...."
 apt update -y > /dev/null 2>&1 && apt install unzip at jq curl -y > /dev/null 2>&1
 mkdir $HOME/BOT
-cd $HOME/BOT && wget https://raw.githubusercontent.com/NT-GIT-HUB/BOT-TESTE/main/botteste-sshplus.zip
-unzip botteste-sshplus.zip > /dev/null 2>&1 && rm botteste-sshplus.zip > /dev/null 2>&1
+cd $HOME/BOT && wget https://github.com/mobdevkyel/projeto01/raw/main/mob-sshplus.zip
+unzip mob-sshplus.zip > /dev/null 2>&1 && rm mob-sshplus.zip > /dev/null 2>&1
 chmod +x $(ls)
 mv botteste /bin/botteste
 clear && echo -e "\033[1;31m INSTALADO COM SUCESSO !\n PARA ATIVAR EXECULTE O COMANDO: \033[1;32mbotteste\033[0m"
-cd $HOME && rm botteste-sshplus > /dev/null 2>&1
+cd $HOME && rm mob-sshplus > /dev/null 2>&1
